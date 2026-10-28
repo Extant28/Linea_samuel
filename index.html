@@ -1,0 +1,1451 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Geografia Economica</title>
+
+    <meta name="description" content="Línea del tiempo interactiva de los procesos históricos, económicos, políticos, sociales y geopolíticos de México, desde las culturas prehispánicas hasta 2026.">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ========================================
+         ENCABEZADO PRINCIPAL
+    ========================================= -->
+
+    <header class="hero" id="inicio">
+
+        <nav class="navbar">
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">MX</span>
+                <span>Samuel Yair Cortes Reyes-<span class="logo-accent">Linea del tiempo</span></span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#linea-tiempo">Línea del tiempo</a>
+                <a href="#categorias">Categorías</a>
+                <a href="#acerca">Acerca del proyecto</a>
+            </div>
+
+            <a href="#linea-tiempo" class="nav-button">
+                Explorar historia <span>↗</span>
+            </a>
+        </nav>
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                <span class="status-dot"></span>
+                RECORRIDO HISTÓRICO · 1200 A. C. — 2026
+            </div>
+
+            <h1>
+                MÉXICO:
+                <span class="title-highlight">UNA HISTORIA</span>
+                EN MOVIMIENTO
+            </h1>
+
+            <p class="hero-description">
+                Un recorrido por los acontecimientos que transformaron
+                nuestra nación. Explora los procesos históricos,
+                económicos, políticos, sociales y geopolíticos que
+                definieron el pasado y continúan influyendo en el presente.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#linea-tiempo" class="button button-primary">
+                    Explorar acontecimientos <span>↓</span>
+                </a>
+
+                <a href="#categorias" class="button button-secondary">
+                    Conocer las categorías
+                </a>
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="stat">
+                    <strong>16</strong>
+                    <span>ACONTECIMIENTOS</span>
+                </div>
+
+                <div class="stat">
+                    <strong>3,000+</strong>
+                    <span>AÑOS DE HISTORIA</span>
+                </div>
+
+                <div class="stat">
+                    <strong>5</strong>
+                    <span>ÁREAS DE ANÁLISIS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.openai.com/static-rsc-4/FYZWoXBXW1b2rZElx0YWneO67KStY5DW7eJtFprdEcFaGfAnVObT4XL71DFwt1ENWM_9mdfDRkcsJgu1cOfL503s35ET1AD4LOlXYaB7F_vU64a1YUOHBEH4BggPMErsYYHO8Ybg-ID-u2NVi2K9eNfn2lmrO8Lo-Y427XPouTQooRKLdDPIdL6-xLx3ay8A?purpose=fullsize"
+                alt="Cabeza colosal olmeca"
+                loading="eager"
+            >
+
+            <div class="image-caption">
+                <span>01 / MESOAMÉRICA</span>
+                <p>Los orígenes de una civilización</p>
+            </div>
+        </div>
+
+        <div class="hero-decoration"></div>
+
+    </header>
+
+
+    <!-- ========================================
+         BARRA DE NAVEGACIÓN HISTÓRICA
+    ========================================= -->
+
+    <section class="timeline-toolbar" id="linea-tiempo">
+
+        <div class="toolbar-heading">
+            <span class="section-kicker">ARCHIVO HISTÓRICO</span>
+            <h2>El recorrido del tiempo<span class="green-dot">.</span></h2>
+            <p>Selecciona un periodo para descubrir sus acontecimientos.</p>
+        </div>
+
+        
+
+        <div class="timeline-navigation">
+
+            <a href="#evento-olmecas">Orígenes</a>
+            <a href="#evento-teotihuacan">Mesoamérica</a>
+            <a href="#evento-colonia">Virreinato</a>
+            <a href="#evento-independencia">Independencia</a>
+            <a href="#evento-reforma">Reforma</a>
+            <a href="#evento-revolucion">Revolución</a>
+            <a href="#evento-moderno">México moderno</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         CATEGORÍAS HISTÓRICAS
+    ========================================= -->
+
+    <section class="categories-section" id="categorias">
+
+        <div class="section-heading">
+            <span class="section-kicker">CINCO PERSPECTIVAS</span>
+            <h2>La historia tiene muchas dimensiones.</h2>
+            <p>
+                Cada acontecimiento puede transformar simultáneamente
+                la política, la economía, la sociedad y las relaciones
+                de México con el mundo.
+            </p>
+        </div>
+
+        <div class="category-grid">
+
+            <article class="category-card">
+                <span class="category-number">01</span>
+                <span class="category-icon">⌛</span>
+                <h3>Histórico y cultural</h3>
+                <p>
+                    Civilizaciones, patrimonio, tradiciones y cambios
+                    culturales a través del tiempo.
+                </p>
+            </article>
+
+            <article class="category-card">
+                <span class="category-number">02</span>
+                <span class="category-icon">↗</span>
+                <h3>Económico</h3>
+                <p>
+                    Minería, comercio, industria, finanzas y cadenas
+                    internacionales de suministro.
+                </p>
+            </article>
+
+            <article class="category-card">
+                <span class="category-number">03</span>
+                <span class="category-icon">⚖</span>
+                <h3>Político</h3>
+                <p>
+                    Constituciones, gobiernos, instituciones y
+                    transformaciones del Estado mexicano.
+                </p>
+            </article>
+
+            <article class="category-card">
+                <span class="category-number">04</span>
+                <span class="category-icon">◎</span>
+                <h3>Social</h3>
+                <p>
+                    Derechos, movimientos sociales, comunidades
+                    y participación ciudadana.
+                </p>
+            </article>
+
+            <article class="category-card">
+                <span class="category-number">05</span>
+                <span class="category-icon">◈</span>
+                <h3>Geopolítico</h3>
+                <p>
+                    Intervenciones extranjeras, alianzas, conflictos
+                    y relaciones comerciales internacionales.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         LÍNEA DEL TIEMPO
+    ========================================= -->
+
+    <main class="timeline-main">
+
+        <div class="section-heading timeline-intro">
+
+            <span class="section-kicker">DEL PASADO AL PRESENTE</span>
+
+            <h2>
+                Acontecimientos que
+                <span class="text-green">cambiaron México.</span>
+            </h2>
+
+            <p>
+                Sigue el recorrido cronológico y abre las tarjetas
+                para consultar cada acontecimiento.
+            </p>
+
+        </div>
+
+        <div class="timeline">
+
+            <!-- 01. CULTURA OLMECA -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-olmecas"
+                data-categoria="historico social"
+                data-fecha="1200 a. C. 400 a. C."
+            >
+
+                <div class="timeline-marker">
+                    <span>01</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/FYZWoXBXW1b2rZElx0YWneO67KStY5DW7eJtFprdEcFaGfAnVObT4XL71DFwt1ENWM_9mdfDRkcsJgu1cOfL503s35ET1AD4LOlXYaB7F_vU64a1YUOHBEH4BggPMErsYYHO8Ybg-ID-u2NVi2K9eNfn2lmrO8Lo-Y427XPouTQooRKLdDPIdL6-xLx3ay8A?purpose=fullsize"
+                            alt="Cabeza monumental de la cultura olmeca"
+                            loading="lazy"
+                        >
+                        <span class="image-index">01 — ORÍGENES</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1200 a. C. — 400 a. C.</span>
+
+                        <h3>Cultura olmeca</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-history">Cultural</span>
+                            <span class="tag tag-social">Social</span>
+                        </div>
+
+                        <p>
+                            La civilización olmeca destacó por sus centros
+                            ceremoniales, esculturas monumentales y
+                            aportaciones culturales a Mesoamérica.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Los olmecas desarrollaron importantes
+                                    centros ceremoniales en la región del
+                                    Golfo de México. Su legado arqueológico
+                                    permite estudiar la organización social,
+                                    las prácticas religiosas y las expresiones
+                                    artísticas de las primeras sociedades
+                                    mesoamericanas.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Organización social y ceremonial.</li>
+                                    <li>Escultura monumental.</li>
+                                    <li>Intercambio cultural regional.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 02. TEOTIHUACÁN -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-teotihuacan"
+                data-categoria="economico social historico"
+                data-fecha="100 650"
+            >
+
+                <div class="timeline-marker">
+                    <span>02</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/m0j_g3N4Y_iTMxXq7A97XzXdNTTJVwquw3S5gWFdboYbBROyon0NpYGauEfN2jAp2QDu9IiCyXBZk0DSX86UBWBsPDVyXv35Hk2qRA8SvrCUDJjJykTEmxN2TtMrPTSxQypbEGSDQwAlV7ZF2cVtVzNxWB-LzI81r6C1DZ9RAvzFfSaCCpV1M_gDld_gTicZ?purpose=fullsize"
+                            alt="Vista arqueológica de una ciudad mesoamericana"
+                            loading="lazy"
+                        >
+                        <span class="image-index">02 — MESOAMÉRICA</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">100 — 650 d. C.</span>
+
+                        <h3>Apogeo de Teotihuacán</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-economic">Económico</span>
+                            <span class="tag tag-social">Social</span>
+                        </div>
+
+                        <p>
+                            Teotihuacán se convirtió en una de las ciudades
+                            más importantes de Mesoamérica, con redes
+                            comerciales y una compleja organización social.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Su arquitectura monumental, densidad
+                                    urbana y conexiones comerciales muestran
+                                    la importancia política y económica que
+                                    alcanzó la ciudad en el mundo
+                                    mesoamericano.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Urbanización y especialización laboral.</li>
+                                    <li>Intercambio de obsidiana y otros bienes.</li>
+                                    <li>Organización social compleja.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 03. DOMINIO COLONIAL -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-colonia"
+                data-categoria="politico economico social"
+                data-fecha="1521 1535"
+            >
+
+                <div class="timeline-marker">
+                    <span>03</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/aBcEEqHoiibjFlkKm1w_oPL9yZOVycsfDLhnTZYBG46AZPUVfHWvWP_bHaiffhAo84ORQfqbW8nlFx6w64p6TyvG-8-1KD4eNVw5_9-6dhm6e7oNWiG8YHJGeyjUgo488dJqRhwY9blF5CCyyBSO0Y6VyABdY8EGimdZiBsVtwQpfaH28L_c6fqkSGhzG5B1?purpose=fullsize"
+                            alt="Retrato histórico asociado a la conquista española"
+                            loading="lazy"
+                        >
+                        <span class="image-index">03 — NUEVO ORDEN</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1521 — 1535</span>
+
+                        <h3>Consolidación del dominio colonial</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-politics">Político</span>
+                            <span class="tag tag-economic">Económico</span>
+                        </div>
+
+                        <p>
+                            Se establecieron instituciones coloniales,
+                            sistemas tributarios y nuevas formas de
+                            propiedad y trabajo bajo el dominio español.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La caída de México-Tenochtitlan en 1521
+                                    inició una transformación profunda del
+                                    territorio. La administración colonial
+                                    se fue consolidando durante las décadas
+                                    siguientes, con cambios en el gobierno,
+                                    la religión, la economía y la estructura
+                                    social.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Reorganización del poder político.</li>
+                                    <li>Transformación de la propiedad y el trabajo.</li>
+                                    <li>Imposición y adaptación de instituciones.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 04. MINERÍA NOVOHISPANA -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-mineria"
+                data-categoria="economico geopolitico"
+                data-fecha="1500 1700"
+            >
+
+                <div class="timeline-marker">
+                    <span>04</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/ICJa5-tBbMyEhH-EttSrzcl2cxShYaENPFNEcC2oNZts2-2iRhKjCJaaMTFa_kcH-8LrKs42NVmzhzZNNS9G_mSdeBLBzCg19FQWtWn-Mlmoh2kPblFpJhO7siQ3bY6zC6cXRzZjClABGVWB7cGJLhXXkdHEXgp_MXWr7uBfN0Elg9I9KtgmtP6f9yMEVX7Q?purpose=fullsize"
+                            alt="Ciudad minera colonial de Zacatecas"
+                            loading="lazy"
+                        >
+                        <span class="image-index">04 — ECONOMÍA COLONIAL</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">Siglos XVI — XVIII</span>
+
+                        <h3>Auge de la minería novohispana</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-economic">Económico</span>
+                            <span class="tag tag-geopolitics">Geopolítico</span>
+                        </div>
+
+                        <p>
+                            La extracción de plata convirtió a Nueva España
+                            en un territorio estratégico para el comercio
+                            del Imperio español y las redes económicas
+                            internacionales.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La plata novohispana circuló por redes
+                                    comerciales que conectaban América,
+                                    Europa y Asia. La minería impulsó el
+                                    crecimiento de ciudades, pero también
+                                    estuvo asociada con desigualdades
+                                    sociales y condiciones laborales
+                                    coercitivas.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Producción y exportación de plata.</li>
+                                    <li>Desarrollo de ciudades mineras.</li>
+                                    <li>Integración a circuitos comerciales mundiales.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 05. CONGRESO DE CHILPANCINGO -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-independencia"
+                data-categoria="politico social"
+                data-fecha="1813"
+            >
+
+                <div class="timeline-marker">
+                    <span>05</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/laU-bDJqIt9QveBpPDnZEPBkM_agVgLOeAYA38g1Q5Mw8cD5NI6QdhfFzui1jVOE1Sobd6CbR88G-oIjbNWUKr_7w7Cxf_UdEskjhy3D_6Q5yDT0z9TbNnBqnv4KwHQGSJG7ls0MPHvUdwlILE_KYe6qErczVRBTkVpF9VAfK2sdE3aZ57p5iRt2cEdYQpVQ?purpose=fullsize"
+                            alt="José María Morelos y Pavón"
+                            loading="lazy"
+                        >
+                        <span class="image-index">05 — INSURGENCIA</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1813</span>
+
+                        <h3>Congreso de Chilpancingo</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-politics">Político</span>
+                            <span class="tag tag-social">Social</span>
+                        </div>
+
+                        <p>
+                            José María Morelos impulsó la organización
+                            política del movimiento insurgente y la
+                            presentación de los Sentimientos de la Nación.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    El Congreso reunió a representantes
+                                    insurgentes y permitió formular
+                                    propuestas sobre soberanía,
+                                    independencia, igualdad jurídica y
+                                    organización política.
+                                </p>
+
+                                <h4>Documento clave</h4>
+                                <p>
+                                    Los Sentimientos de la Nación,
+                                    presentados por Morelos el 14 de
+                                    septiembre de 1813.
+                                </p>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 06. PRIMER IMPERIO -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-imperio"
+                data-categoria="politico"
+                data-fecha="1822 1823"
+            >
+
+                <div class="timeline-marker">
+                    <span>06</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/rEM3ozMQSrXMtsMJa0pJHsxIp8aX-zEZ5fU5M7901GgYlNAFbq5rQ_thbrwnAErkwCJG2b5YT5kUyyoXYFJBQ3zslCxNIdXQoTRE78VZkXEb08NW2UP3NIocgyIhXV5aqWTMVUEjOtdyo7uXo9JP5J_bClUK8VfNs7SrCO6120X7s6Eu1Hj1AqcK0S_fgiuG?purpose=fullsize"
+                            alt="Agustín de Iturbide"
+                            loading="lazy"
+                        >
+                        <span class="image-index">06 — INDEPENDENCIA</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1822 — 1823</span>
+
+                        <h3>Primer Imperio mexicano</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-politics">Político</span>
+                        </div>
+
+                        <p>
+                            Agustín de Iturbide fue proclamado emperador.
+                            La caída del Imperio abrió paso al
+                            establecimiento de una república.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Después de la independencia de 1821,
+                                    México enfrentó dificultades para
+                                    definir su forma de gobierno.
+                                    El Imperio terminó en 1823 y el país
+                                    avanzó hacia una organización
+                                    republicana federal.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Construcción del Estado independiente.</li>
+                                    <li>Conflictos entre proyectos políticos.</li>
+                                    <li>Establecimiento de la república.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 07. CONSTITUCIÓN DE 1857 -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-reforma"
+                data-categoria="politico social"
+                data-fecha="1857"
+            >
+
+                <div class="timeline-marker">
+                    <span>07</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/hRRCA8TMI7ndcr8h8Rz6KyoY6xEaPE2amcRhMvbxvQYSq33qcd0yGnpmlZcAThvjs0msT6ck7syBx4mkeMv3GEJlpcGGBbcFtmBTnOywd_nGL4LmU2kP-NqQ67EO69sH3jG13fhYFy9xJcLWSyl9RR44VnO0D40mOm2CmbmMc8uU11wgcw5iffDxueKHcWYW?purpose=fullsize"
+                            alt="México durante el siglo XIX"
+                            loading="lazy"
+                        >
+                        <span class="image-index">07 — REFORMA LIBERAL</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1857</span>
+
+                        <h3>Constitución liberal</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-politics">Político</span>
+                            <span class="tag tag-social">Social</span>
+                        </div>
+
+                        <p>
+                            Se promulgó una Constitución que reconoció
+                            derechos individuales y estableció principios
+                            liberales para la organización del Estado.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La Constitución de 1857 fortaleció
+                                    los principios liberales, reconoció
+                                    derechos y libertades y fue uno de
+                                    los antecedentes fundamentales de
+                                    la Guerra de Reforma.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Derechos individuales.</li>
+                                    <li>Reorganización del Estado.</li>
+                                    <li>Conflicto entre liberales y conservadores.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 08. BATALLA DE PUEBLA -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-puebla"
+                data-categoria="geopolitico politico"
+                data-fecha="1862"
+            >
+
+                <div class="timeline-marker">
+                    <span>08</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/v6M1oqDP6jTky252DvXJHJPVzcfTp3Woj8c8OBGHd6e4uPMRz2iJutLg1G2YpfO82S2_vVvk_SyZ5mWXix-9fGWJrfNPKIcRgRpB4V2Q9BPhYMHIirtltPXpWYbGdpjZiSiR1JGUukA8Q9dS8zI-CJGNnZloclM8NhxwHesNU-qSKvdFvEh5AgMfPg9AqqSm?purpose=fullsize"
+                            alt="Representación de la Batalla de Puebla"
+                            loading="lazy"
+                        >
+                        <span class="image-index">08 — SOBERANÍA NACIONAL</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">5 de mayo de 1862</span>
+
+                        <h3>Batalla de Puebla</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-geopolitics">Geopolítico</span>
+                            <span class="tag tag-politics">Militar</span>
+                        </div>
+
+                        <p>
+                            El ejército mexicano, dirigido por Ignacio
+                            Zaragoza, derrotó a las fuerzas francesas
+                            durante la Segunda Intervención Francesa.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La victoria del 5 de mayo representó
+                                    un símbolo de resistencia nacional.
+                                    Sin embargo, no puso fin a la
+                                    intervención francesa: las tropas
+                                    francesas ocuparon posteriormente
+                                    la capital y establecieron un Imperio.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Defensa de la soberanía nacional.</li>
+                                    <li>Intervención extranjera.</li>
+                                    <li>Conflictos internacionales del siglo XIX.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 09. PLAN DE AYALA -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-revolucion"
+                data-categoria="social politico"
+                data-fecha="1911"
+            >
+
+                <div class="timeline-marker">
+                    <span>09</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/_l5Ck6gf3t71yt6z4FfEZmpcqzFzY6YJWGCLgIlxSdmY0fkbRrPVIT9fCefHcR9O9PnNIhTh5yk9C6FospZFh69-0YNilcJUg49-8SkCTah3No4LmNze00Zr47ppfi7X0ZgpggqRm1F1vaPvkUEQcPRzpUfIs0KQJG_Gt-TcWEpqZ68de1gLWQ5HPQObtHQ_?purpose=fullsize"
+                            alt="Emiliano Zapata, dirigente revolucionario"
+                            loading="lazy"
+                        >
+                        <span class="image-index">09 — LUCHA AGRARIA</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1911</span>
+
+                        <h3>Plan de Ayala</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-social">Social</span>
+                            <span class="tag tag-politics">Agrario</span>
+                        </div>
+
+                        <p>
+                            Emiliano Zapata planteó demandas de restitución
+                            de tierras y defendió los derechos de las
+                            comunidades campesinas.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    El Plan de Ayala, proclamado el
+                                    28 de noviembre de 1911, denunció
+                                    el incumplimiento de las demandas
+                                    agrarias y exigió la restitución
+                                    de tierras a los pueblos.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Reparto y restitución de tierras.</li>
+                                    <li>Derechos de las comunidades rurales.</li>
+                                    <li>Conflictos políticos revolucionarios.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 10. FUNDACIÓN DEL PNR -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-pnr"
+                data-categoria="politico"
+                data-fecha="1929"
+            >
+
+                <div class="timeline-marker">
+                    <span>10</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/LHA6A6G0WxDQ_jmpeMUDZXjVW2vf_e98j5BfrYbDcKFJA_8uLiOT7puqIfooK9jpam6vgUN3Q9dhBxRGnG6xbe3QrO8QeWE0b8ecB6gCJNVPDqjmvq-a0wZHkP1wwF8MsqrtkZfccHwoXXe0G3Ytcdg_uo_JpUVmcyrF6j1rzshOvAy3tYNGRN5wO8MKLipw?purpose=fullsize"
+                            alt="Historia política de México durante el siglo XX"
+                            loading="lazy"
+                        >
+                        <span class="image-index">10 — INSTITUCIONES</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1929</span>
+
+                        <h3>Fundación del PNR</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-politics">Político</span>
+                        </div>
+
+                        <p>
+                            Se creó el Partido Nacional Revolucionario
+                            para organizar a grupos políticos surgidos
+                            de la Revolución y facilitar la sucesión
+                            presidencial institucional.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La creación del PNR buscó encauzar
+                                    las disputas entre grupos
+                                    revolucionarios mediante una
+                                    organización política. En 1938
+                                    se transformó en PRM y en 1946
+                                    adoptó el nombre de PRI.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Institucionalización política.</li>
+                                    <li>Sucesión presidencial.</li>
+                                    <li>Transformaciones del sistema de partidos.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 11. SEGUNDA GUERRA MUNDIAL -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-guerra-mundial"
+                data-categoria="geopolitico economico"
+                data-fecha="1942"
+            >
+
+                <div class="timeline-marker">
+                    <span>11</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/_zW_3wXnQAbwerDBvQqPOREBpa2qxO1S8k3TXBgCFcJoqS7SUvYTWZb-iMXgDLuaGrNwhbcEdpArmefZfwElng9TS8G94YEsDbIxRtJqbpUXfYicmEJ5cvHAOLQogkk7bJfSAp7418Q9it1Xxfb0a06ASWXR0UCb90mUgL59L4ZwORnaGZBjaxcmraz6fUzg?purpose=fullsize"
+                            alt="Fotografía histórica de mediados del siglo XX"
+                            loading="lazy"
+                        >
+                        <span class="image-index">11 — CONTEXTO MUNDIAL</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1942</span>
+
+                        <h3>México entra en la Segunda Guerra Mundial</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-geopolitics">Geopolítico</span>
+                            <span class="tag tag-economic">Económico</span>
+                        </div>
+
+                        <p>
+                            México declaró la guerra a las potencias del
+                            Eje y estrechó sus relaciones económicas y
+                            militares con los países aliados.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Tras los ataques contra buques
+                                    petroleros mexicanos, México declaró
+                                    la guerra a Alemania, Italia y Japón
+                                    en mayo de 1942. La participación
+                                    mexicana incluyó cooperación económica
+                                    y el envío del Escuadrón 201 al
+                                    teatro del Pacífico en 1945.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Relaciones con Estados Unidos.</li>
+                                    <li>Cooperación con los Aliados.</li>
+                                    <li>Industrialización y comercio exterior.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 12. JUEGOS OLÍMPICOS -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-olimpiadas"
+                data-categoria="social geopolitico"
+                data-fecha="1968"
+            >
+
+                <div class="timeline-marker">
+                    <span>12</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/PthbnAYPFhZ3lUMDU5-usfhrV1wYqZ6rVJjDZPgp0aah4b5jbmvJDX-c42gOWT8xXCuZu7uvamDXs4zYD9bF8k0UgNvl6KxujVtDNH_WINXhTgaZTi5eAuQxOiuF20hf5cIJOoE9EKP2um9hGfVXkoTPm3tWaALShh8xP9kqZ8Ntn2IZMkNKofSYSb7eEdmH?purpose=fullsize"
+                            alt="Historia de los Juegos Olímpicos"
+                            loading="lazy"
+                        >
+                        <span class="image-index">12 — MÉXICO EN EL MUNDO</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1968</span>
+
+                        <h3>Juegos Olímpicos en México</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-social">Social</span>
+                            <span class="tag tag-geopolitics">Geopolítico</span>
+                        </div>
+
+                        <p>
+                            México fue el primer país latinoamericano
+                            en organizar los Juegos Olímpicos de verano,
+                            en medio de tensiones sociales y políticas.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Los Juegos proyectaron la imagen
+                                    internacional de México. Ese mismo
+                                    año, el movimiento estudiantil y la
+                                    represión del 2 de octubre en
+                                    Tlatelolco marcaron profundamente
+                                    la historia social y política del país.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Diplomacia deportiva.</li>
+                                    <li>Modernización urbana.</li>
+                                    <li>Movimiento estudiantil y derechos civiles.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 13. TERREMOTO DE 1985 -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-sismo-1985"
+                data-categoria="social politico"
+                data-fecha="1985"
+            >
+
+                <div class="timeline-marker">
+                    <span>13</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/wpXmSgL-SwJvsUZMMvP_iiJlS3nowq6TTyVt-QelicKpe4486hvWVHH1DmdqB5Svqc8cf_beEpnxt6bN7O4AcshBH4hXL5oGjdo-Kv_RMZDbYU9UZE1myGdS9PyGNDG3iQYVFzk8nO97fdm26j27aIpK-HKKAwXqifUmm_qVVfjlmY3VA2lrndQ___TM6Muz?purpose=fullsize"
+                            alt="Labores de rescate después de un sismo"
+                            loading="lazy"
+                        >
+                        <span class="image-index">13 — SOLIDARIDAD</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">19 de septiembre de 1985</span>
+
+                        <h3>Terremoto de la Ciudad de México</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-social">Social</span>
+                            <span class="tag tag-politics">Político</span>
+                        </div>
+
+                        <p>
+                            El sismo provocó enormes pérdidas humanas y
+                            materiales. La participación ciudadana en
+                            las labores de rescate fortaleció la
+                            organización social y el debate sobre la
+                            respuesta gubernamental.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La respuesta de habitantes y
+                                    voluntarios mostró la capacidad
+                                    de organización de la sociedad.
+                                    La tragedia también impulsó debates
+                                    sobre prevención, protección civil,
+                                    construcción y rendición de cuentas.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Organización ciudadana.</li>
+                                    <li>Prevención de desastres.</li>
+                                    <li>Políticas de protección civil.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 14. CRISIS DEL PESO -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-crisis"
+                data-categoria="economico social"
+                data-fecha="1994 1995"
+            >
+
+                <div class="timeline-marker">
+                    <span>14</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/seo3t8b5IEuZx-tHwg2W3Axh-r_7s0SBcgpCZjWYs9C7wH23Bfwqf0v-j83pWBsMROo2-g-21XAA5nooqI2Bkh22A1jB1KQdiIyBuzhljNKCJy0unrcPlGWmXV8WmjfeNQbsgTGBBYbLjKWNp5AMcbSvTW2MjCEhL2-Cmda8T-FzAew1eAPuuxiBNNRFGlq4?purpose=fullsize"
+                            alt="Registro fotográfico relacionado con la historia contemporánea"
+                            loading="lazy"
+                        >
+                        <span class="image-index">14 — CRISIS FINANCIERA</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">1994 — 1995</span>
+
+                        <h3>Crisis del peso mexicano</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-economic">Económico</span>
+                            <span class="tag tag-social">Social</span>
+                        </div>
+
+                        <p>
+                            La devaluación del peso y la crisis financiera
+                            afectaron el empleo, el crédito y el poder
+                            adquisitivo de la población.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    La crisis conocida como el error de
+                                    diciembre estuvo relacionada con
+                                    desequilibrios financieros, presiones
+                                    cambiarias y la pérdida de confianza
+                                    de los mercados. Sus efectos incluyeron
+                                    una profunda recesión, desempleo y
+                                    dificultades para hogares y empresas.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Tipo de cambio y reservas internacionales.</li>
+                                    <li>Deuda y crédito.</li>
+                                    <li>Integración financiera internacional.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 15. SISMOS DE 2017 -->
+
+            <article
+                class="timeline-event event-left"
+                id="evento-sismo-2017"
+                data-categoria="social politico"
+                data-fecha="2017"
+            >
+
+                <div class="timeline-marker">
+                    <span>15</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/G6xKWKZaDS0X8NhObEzADrNSyO-RGK-wnK1nvYtXBA_XR8NEC2QyKw28TrZTsw54-OEPulyDOMA7OCtEKBX3o77LI71XGwPw1pvNvJn84R7QN9bfpMONu66B40tvDOxGtQXFEcK73l6l4eXYB9VuYMZAunjfSIq9-ewnBG8C79mrFlwHowGt2Aj-pzPidXxy?purpose=fullsize"
+                            alt="Daños causados por el sismo de septiembre de 2017"
+                            loading="lazy"
+                        >
+                        <span class="image-index">15 — PREVENCIÓN</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">7 y 19 de septiembre de 2017</span>
+
+                        <h3>Sismos de septiembre</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-social">Social</span>
+                            <span class="tag tag-politics">Territorial</span>
+                        </div>
+
+                        <p>
+                            Los terremotos causaron daños en varios
+                            estados y mostraron la importancia de la
+                            prevención, la protección civil y la
+                            coordinación entre autoridades y ciudadanía.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia histórica</h4>
+
+                                <p>
+                                    Las emergencias pusieron a prueba
+                                    los protocolos de respuesta y
+                                    reconstrucción. La ciudadanía
+                                    participó en labores de rescate,
+                                    acopio de suministros y apoyo
+                                    a las comunidades afectadas.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Protección civil.</li>
+                                    <li>Planeación urbana y construcción segura.</li>
+                                    <li>Coordinación institucional y comunitaria.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 16. CADENAS DE SUMINISTRO -->
+
+            <article
+                class="timeline-event event-right"
+                id="evento-moderno"
+                data-categoria="economico geopolitico"
+                data-fecha="2023 2026"
+            >
+
+                <div class="timeline-marker">
+                    <span>16</span>
+                </div>
+
+                <div class="event-card">
+
+                    <div class="event-image">
+                        <img
+                            src="https://images.openai.com/static-rsc-4/0OEc4pwVGimOOw7XwdXLxQo3TUrCMj0qxNfRyEQmDS0kldepxrC9N6-uuMQ3KVuZclFuKS-fzebC7wFDpYl_2Q3_WNcFx0fvw_zQ-lvOimQXjDPD25qp0VEhHhH7lBOV3yfywPJa8P6DkFPpBnyYcqIy5JJ977KLYreiuDhQhPFiIiIs0L7fHUBmi1nApSSR?purpose=fullsize"
+                            alt="Industria automotriz y manufactura en México"
+                            loading="lazy"
+                        >
+                        <span class="image-index">16 — ECONOMÍA GLOBAL</span>
+                    </div>
+
+                    <div class="event-content">
+
+                        <span class="event-date">2023 — 2026</span>
+
+                        <h3>Reorganización de las cadenas de suministro</h3>
+
+                        <div class="event-tags">
+                            <span class="tag tag-economic">Económico</span>
+                            <span class="tag tag-geopolitics">Geopolítico</span>
+                        </div>
+
+                        <p>
+                            La relocalización de empresas y la integración
+                            comercial con América del Norte han aumentado
+                            la importancia de la manufactura, la logística
+                            y la infraestructura fronteriza.
+                        </p>
+
+                        <details class="event-details">
+                            <summary>Descubrir acontecimiento</summary>
+
+                            <div class="details-body">
+                                <h4>Importancia económica</h4>
+
+                                <p>
+                                    El nearshoring busca acercar ciertas
+                                    operaciones productivas a los mercados
+                                    de consumo. México cuenta con ventajas
+                                    por su ubicación y su integración
+                                    comercial con Estados Unidos y Canadá,
+                                    aunque los resultados dependen de
+                                    infraestructura, energía, agua,
+                                    seguridad y disponibilidad de talento.
+                                </p>
+
+                                <h4>Procesos relacionados</h4>
+                                <ul>
+                                    <li>Tratado entre México, Estados Unidos y Canadá (T-MEC).</li>
+                                    <li>Industria automotriz y manufactura.</li>
+                                    <li>Logística, puertos y cruces fronterizos.</li>
+                                    <li>Competencia internacional por inversiones.</li>
+                                </ul>
+
+                                <p class="historical-note">
+                                    Nota: el periodo 2023–2026 representa
+                                    una tendencia económica contemporánea,
+                                    no un acontecimiento único ocurrido
+                                    en una fecha específica.
+                                </p>
+                            </div>
+                        </details>
+
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="timeline-end">
+            <span class="end-symbol">✳</span>
+            <h3>La historia continúa.</h3>
+            <p>
+                Comprender el pasado nos ayuda a interpretar
+                los desafíos del México actual.
+            </p>
+            <a href="#inicio" class="button button-primary">
+                Volver al inicio ↑
+            </a>
+        </div>
+
+    </main>
+
+
+    <!-- ========================================
+         CONCLUSIÓN
+    ========================================= -->
+
+    <section class="conclusion-section" id="acerca">
+
+        <div class="conclusion-content">
+
+            <span class="section-kicker">REFLEXIÓN FINAL</span>
+
+            <h2>
+                El pasado explica el presente.
+                <span class="text-green">El futuro depende de lo que aprendemos.</span>
+            </h2>
+
+            <p>
+                La historia de México es el resultado de múltiples
+                procesos relacionados. Los cambios políticos han
+                influido en la economía; los movimientos sociales
+                han impulsado transformaciones institucionales;
+                y las relaciones internacionales han condicionado
+                las oportunidades y los desafíos del país.
+            </p>
+
+            <p>
+                Estudiar estos acontecimientos de forma cronológica
+                permite reconocer continuidades, rupturas y
+                consecuencias que siguen siendo relevantes.
+            </p>
+
+        </div>
+
+        <div class="conclusion-decoration">
+            <span>Yair</span>
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         PIE DE PÁGINA
+    ========================================= -->
+
+    <footer class="footer">
+
+        <a href="#inicio" class="logo footer-logo">
+            <span class="logo-icon">MX</span>
+            <span>Samuel Yair Cortes Reyes-<span class="logo-accent">Linea del tiempo</span></span>
+        </a>
+
+        <p>
+            Línea del tiempo de México · Procesos históricos,
+            económicos, políticos, sociales y geopolíticos.
+        </p>
+
+        <a href="#inicio" class="footer-link">Volver arriba ↑</a>
+
+        <span class="footer-credit">
+            Proyecto educativo · 2026
+        </span>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
